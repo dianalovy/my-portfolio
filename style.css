@@ -20,7 +20,6 @@ padding:0;
 nav ul li{
     display: inline;
     margin:o;
-    
 }
 nav ul li a{
     color:yellow;
@@ -56,12 +55,27 @@ section{
         display:flex;
         gap:5px;
         max-width:400px;
-        margin:0auto;
+        margin:0auto
     }
+    input,textarea,button{
+    width:100%;
+    padding:10px;
+        font-size:1rem;
+        border:1px solid#ccc;
+        boder-radius:5px;
+    }
+    button{
+        bargound-color:#333;
+    }color:white;
+    cursor:pointer`
+    transition:background-color 0.3s
     section h2{
     color: #333;
     margin-bottom: 10px;
 }
+    button:hover{
+        background-color:#ff9800;
+    }
 footer{
     background-color: #333;
     color: #fff;
@@ -71,3 +85,46 @@ footer{
     bottom: 0;
     width: 100%;
 }
+    nav ul li a:before{
+        content:'';
+        positio:absolute;
+        left:0;
+        buttom:0;
+        height:2px;
+        width:0;
+        background:#ff9800;
+        transition:width 0.3s case-n-out;
+    }
+    nav ul li a:hover::before{
+        width:100%;
+    }
+    media(max-width:768px{
+    nav ul{
+    flex-direction:column;
+    }
+project{
+    text-align:center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
