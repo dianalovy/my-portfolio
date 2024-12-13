@@ -7,7 +7,7 @@ body{
 header{
     background-color:red;
     color: #fff;
-    padding: 1rem0;
+    padding: 1 rem 0;
     text-align: center;
 }
 nav ul{
@@ -19,7 +19,7 @@ padding:0;
 }
 nav ul li{
     display: inline;
-    margin: 0 15px;
+    margin:o;
     
 }
 nav ul li a{
@@ -29,12 +29,36 @@ nav ul li a{
 nav ul li :hover{
     color: maroon;
 }
+#project;#about#contact-me{
+max-width:800;
+margin:20;
+    
 section{
     margin: 20px auto;
     padding: 50px;
     max-width: 800px;
 }
-section h2{
+    project{
+        background-color:red;
+        margin:20px auto
+        padding:20px;
+        boder-radius:10px;
+        box-shadow:04px 6px rgba(0,0,0,0,l);
+        tansition:tranform 0,3 ease-in-out
+        display:flex;
+        text-direction:column;
+        alingn-item:center;
+    }
+    project:hover{
+        transform:translate(-5px)
+    }
+    form{
+        display:flex;
+        gap:5px;
+        max-width:400px;
+        margin:0auto;
+    }
+    section h2{
     color: #333;
     margin-bottom: 10px;
 }
